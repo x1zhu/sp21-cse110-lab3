@@ -1,13 +1,17 @@
 /* This is the comment of this css file */
 /* Don't know how to use it yet */
 
-body
+/* h1
 {
-    color: lightskyblue;
+    color: #F67EC2
+} */
+
+div
+{
+    color: blue
 }
 
 h1
 {
-    color: #F67EC2
+    color: green
 }
-
