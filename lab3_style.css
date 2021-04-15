@@ -6,12 +6,18 @@
     color: #F67EC2
 } */
 
-div
+.title
 {
-    color: blue
+    text-align: center;
+}
+
+.intro
+{
+    color: blue;
+    text-align: center;
 }
 
 h1
 {
-    color: green
+    color: green;
 }
