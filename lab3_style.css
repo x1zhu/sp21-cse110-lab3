@@ -18,7 +18,52 @@
     text-align: center;
 }
 
-h1
+.top1
 {
     color: green;
 }
+
+.top2
+{
+    color: hsl(176, 100%, 35%);
+}
+
+.top3
+{
+    color: rgb(160, 183, 225);
+}
+
+.box {
+    background-color: #567895;
+  }
+  
+  h2 {
+    background-color: black;
+    color: white;
+  }
+  span {
+    background-color: rgba(255,255,255,.5);
+  }
+
+  .wrapper {
+    font-size: 1em;
+  }
+  
+  .px {
+    width: 200px;
+  }
+  
+  .vw {
+    width: 10vw;
+  }
+  
+  .em {
+    width: 10em;
+  }
+    
+  .box1
+  {
+      color: rgb(16, 10, 100);
+  }
+
+  
