@@ -28,6 +28,7 @@
     line-height: 1cm;
     text-decoration: overline;
     display: block;
+    display: flex;
 }
 
 .top2
@@ -51,6 +52,8 @@
 
 .box {
     background-color: #567895;
+   /*  display: none; */
+   /* This is fun, allthing dispear */
   }
   
   h2 {
@@ -82,6 +85,7 @@
   .box1
   {
       color: rgb(16, 10, 100);
+      max-width: 150px;
   }
 
   .box {
@@ -106,15 +110,19 @@
     border-style: inset;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-radius: 25px;
+    min-width: 150px;
+    position: relative;
   }
       
   .one {
     margin-bottom: 50px;
     margin-top: 1em;
+    position: static;
   }
   
   .two {
     margin-top: 30px;
+    position: sticky;
   }
      
   .box3 {
@@ -130,4 +138,93 @@
     border-style: inset;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-radius: 25px;
+  }
+
+
+  /* very cool topic here */
+  * {
+    box-sizing: border-box;
+  }
+  
+  dl > div {
+    background: #FFF;
+    padding: 24px 0 0 0;
+  }
+  
+  dt {
+    background: #B8C1C8;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    color: #FFF;
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+  
+  dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+  }
+  
+  dd + dd {
+    border-top: 1px solid #CCC;
+  }
+
+  /*  */
+
+  a {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+
+  a:active
+  {
+      color: red;
+  }
+
+ /*  button :active{
+      color: red;
+  } */
+
+  .flex-container
+  {
+    display: flex;
+/*     flex-direction: column; */
+/*     flex-grow: 4;
+    flex-shrink: 3; */
+  }
+
+  .flex-container1>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-direction: row;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
   }
