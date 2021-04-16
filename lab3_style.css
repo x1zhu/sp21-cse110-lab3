@@ -9,28 +9,44 @@
 .title
 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    /* font-size: 20vh; */
 }
 
 .intro
 {
     color: darkblue;
     text-align: center;
+    font-size: 150%;
+    border: 1px solid black;
 }
 
 .top1
 {
     color: green;
+    font-size: 0.5cm;
+    line-height: 1cm;
+    text-decoration: overline;
+    display: block;
 }
 
 .top2
 {
     color: hsl(176, 100%, 35%);
+    font-size: 0.5in;
+    text-decoration: line-through;
+    display: inline;
 }
 
 .top3
 {
     color: rgb(160, 183, 225);
+    text-decoration: underline;
+}
+
+.top4
+{
+    text-decoration: underline overline;
 }
 
 .box {
@@ -47,6 +63,8 @@
 
   .wrapper {
     font-size: 1em;
+    /* font-size: 15px; */
+    line-height: 40px;
   }
   
   .px {
@@ -66,3 +84,50 @@
       color: rgb(16, 10, 100);
   }
 
+  .box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .alternate {
+    box-sizing: border-box;
+  }
+
+  .box2 {
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    border-width: 1em;
+    border-style: inset;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-radius: 25px;
+  }
+      
+  .one {
+    margin-bottom: 50px;
+    margin-top: 1em;
+  }
+  
+  .two {
+    margin-top: 30px;
+  }
+     
+  .box3 {
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+  }
+  
+  .container1 {
+    padding: 20px;
+    border-width: 1em;
+    border-style: inset;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-radius: 25px;
+  }
