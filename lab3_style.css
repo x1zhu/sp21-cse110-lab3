@@ -21,7 +21,7 @@
     border: 1px solid black;
 }
 
-.top1
+.top1.h1
 {
     color: green;
     font-size: 0.5cm;
@@ -228,3 +228,64 @@
     text-align: center;
     font-size: 30px;
   }
+
+  input[type="checkbox"]:checked {
+    background: gray;
+  }
+  
+  @media (any-pointer: fine) {
+    input[type="checkbox"] {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border: 1px solid blue;
+    }
+  }
+  
+  @media (any-pointer: coarse) {
+    input[type="checkbox"] {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 30px;
+      height: 30px;
+      border: 2px solid red;
+    }
+  }
+
+  .head
+  {
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Zen Dots', cursive;
+  }
+
+  .photo
+  {
+    text-align: center;
+  }
+
+  #mideaquery
+  {
+    background-color: skyblue;
+  }
+
+  h1, h2, h3, h4, h5, h6 { font-family: helvetica; }
+
+  div p {
+    background-color: yellow;
+  }
+
+  div > p {
+    background-color: lightyellow;
+  }
+
+  div ~ p {
+    background-color: lightblue;
+  }
+
+  div + p {
+    background-color: purple;
+  }
+
